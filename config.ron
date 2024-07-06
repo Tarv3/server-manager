@@ -1,0 +1,7 @@
+(
+    command: "./test/server-manager-test.exe",
+    magic_word: "server:",
+    server_stop: "stop",
+    server_timer_message:  Some([Text("Shutting down in "), Time]),
+    kill_timeout: 60.0
+)
